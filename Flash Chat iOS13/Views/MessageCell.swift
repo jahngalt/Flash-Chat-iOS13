@@ -3,7 +3,7 @@
 //  Flash Chat iOS13
 //
 //  Created by Oleg Kudimov on 12/23/19.
-//  Copyright © 2019 Angela Yu. All rights reserved.
+//  Copyright © 2019 Oleg Kudimov. All rights reserved.
 //
 
 import UIKit
@@ -13,7 +13,7 @@ class MessageCell: UITableViewCell {
     @IBOutlet weak var messageBuble: UIView!
     @IBOutlet weak var label: UILabel!
     @IBOutlet weak var rightImageView: UIImageView!
-   
+    @IBOutlet weak var leftImageView: UIImageView!
     
     override func awakeFromNib() {
         super.awakeFromNib()
